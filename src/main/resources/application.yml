@@ -1,0 +1,11 @@
+server:
+  port: 8091
+  context-path: /shiro
+  jsp-servlet:
+    init-parameters:
+      development: true
+spring:
+  mvc:
+    view:
+      suffix: .jsp
+      prefix: /
